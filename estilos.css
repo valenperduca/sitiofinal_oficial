@@ -1,0 +1,341 @@
+
+
+html {
+	font-family: "Poppins";
+	
+
+}
+
+.header {
+	background-color: grey;
+}
+
+.nav {
+	background-color: grey;
+
+}
+
+.navbar-brand {
+	background-color: grey;
+	padding-left: 30px;
+}
+
+.navbar-brand:hover {
+	text-decoration: underline;
+}
+
+
+.btn-outline-success {
+    --bs-btn-color: white;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: red;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+
+    }
+
+.portada {
+	width: 100%;
+}
+
+
+.foot {
+	text-align: center;
+	background-color: grey;
+    padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+
+.modal-body {
+	text-align: left;
+}
+
+.leer_mas {
+margin-bottom: 15px;
+text-align: center;
+}
+
+
+
+/*BIBLIOGRAFIA*/
+
+ .bibliografia {
+ 	padding-bottom: 15px;
+
+ }
+
+p {
+ 	padding-top: 10px;
+ }
+
+ .img-fluid {
+ 	padding: 10px;
+ }
+
+
+
+ .flex-contenedor {  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+  
+    }
+
+
+.datos {
+    background-color: white;
+    width: 19%;
+    text-align: left;
+    margin-bottom: 10px; 
+    padding: 14px;
+    margin: 15px;
+    align-items: stretch;
+    border: solid;
+}
+
+
+
+.datos_1 {
+    background-color: white;
+    width: 44%;
+    text-align: left;
+    margin-bottom: 10px; 
+    padding: 10px;
+    margin: 14px;
+    border: solid;
+}
+
+
+
+/*MEET Y CONTACTO*/
+
+.contact {
+width: 80%;
+text-align: center;
+
+}
+
+
+.mario_fans {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.contac-boton {
+	color: black;
+}
+
+
+.boton_enviar {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+/*PELICULAS*/
+
+.cont-art {
+	text-align: center;
+    
+}
+
+
+.img_peliculas {
+transition-duration:500ms ;
+
+}
+
+
+.img_peliculas:hover {
+	transform: scale(1.15);
+	
+}
+
+
+
+/*MEET Y CONTACTO*/
+
+.meet {
+	width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.titu {
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.fondo {
+	background-color: red;
+	margin-top: 15px;
+
+}
+
+.espacio {
+	padding: 15px;
+}
+
+
+.caja_form {
+
+
+}
+
+
+.form {
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mapas {
+	text-align: center;
+}
+
+.img_mapa {
+transition-duration:500ms ;
+
+}
+
+.img_mapa:hover {
+	transform: scale(1.15);
+}
+
+.orden_mapa {
+	--bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-around;
+}
+
+/*ADAPTABLE PARA TABLET*/
+
+@media (max-width: 768px) {
+
+.navbar-toggler {
+margin-left: 500px;
+	
+}
+
+.flex-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch; 
+}
+
+
+
+.datos {
+    width: 40%;
+    text-align: left;
+    padding: 13px;
+    margin: 15px;
+    align-items: stretch;
+    border: solid;
+
+}
+    
+
+.datos_1 {
+    background-color: white;
+    width: 41%;
+    text-align: left;
+    margin-bottom: 10px; 
+    padding: 10px;
+    margin: 15px;
+    border: solid;
+}
+
+    }
+
+
+/*ADAPTABLE PARA CELULAR*/
+
+@media (max-width:  480px) 
+{ 
+
+.navbar-toggler {
+margin-left: 125px;
+
+}
+
+.flex-contenedor {  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  
+    }
+
+
+.nombre {
+    font-size: 18px;
+    margin: auto;
+    }
+
+
+.foto {
+
+    display: contents;
+
+}
+
+
+.header {
+    display: flex;
+}
+
+
+.datos {
+    width: 80%;
+    text-align: left;
+    padding: 13px;
+    margin: 15px;
+    align-items: stretch;
+    border: solid;
+
+}
+
+
+.datos_1 {
+    background-color: white;
+    width: 81%;
+    text-align: left;
+    margin-bottom: 10px; 
+    padding: 10px;
+    margin: 15px;
+    border: solid;
+}
+
+.form {
+	margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ 
+
+}
